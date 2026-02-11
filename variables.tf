@@ -17,7 +17,7 @@ EOT
     audit_comment            = optional(string)
     description              = optional(string)
     key_vault_certificate_id = optional(string)
-    self_signed              = optional(bool, false)
+    self_signed              = optional(bool) # Default: false
   }))
 }
 
